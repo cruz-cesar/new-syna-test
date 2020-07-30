@@ -1,0 +1,18 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Syna test"
+theme = "syna"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "Content"
+    name = "Content"
+    url = "/content/"
+    weight = 110
+
+  [[menu.main]]
+    identifier = "Home"
+    name = "Home"
+    url = "/home/"
+    weight = -110
